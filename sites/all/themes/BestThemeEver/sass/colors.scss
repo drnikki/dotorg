@@ -1,0 +1,17 @@
+/**
+ * @file
+ * Colors Styling
+ */
+
+@import "base";
+
+body {
+  background-color: $body-background;
+}
+
+
+a {
+  color: $link;
+  &:hover { color: #ffcccc; }
+  &:visited { color: #c458cb; }
+}
