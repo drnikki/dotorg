@@ -64,12 +64,14 @@ body {
 
 #site-name { /* The name of the website */
   margin: 0;
-  font-size: 2em;
+  font-size: 2.5em;
   line-height: 1.5em;
+
+  font-family: $font-header;
 
   a:link,
   a:visited {
-    color: #000;
+    color: $header-link-color;
     text-decoration: none;
   }
 
@@ -236,4 +238,9 @@ span.field-label { /* The inline field label used by the Fences module */
  */
 
 .region-bottom { /* Wrapper for any blocks placed in the page bottom region */
+}
+
+code {
+  padding: 10px 10px 10px 0px;
+
 }

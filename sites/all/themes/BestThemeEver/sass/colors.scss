@@ -9,9 +9,12 @@ body {
   background-color: $body-background;
 }
 
+#header {
+  background-color: #cccccc;
+}
 
 a {
-  color: $link;
-  &:hover { color: #ffcccc; }
-  &:visited { color: #c458cb; }
+  color: $link-color-default;
+  &:hover { color: $link-color-hover; }
+  &:visited { color: $link-color-visited; }
 }

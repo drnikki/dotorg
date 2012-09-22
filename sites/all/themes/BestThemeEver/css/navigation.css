@@ -20,8 +20,11 @@ ul li.collapsed {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\0000327}}
 ul li.leaf {
-  list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHBAMAAAA2fErgAAAAD1BMVEX///+/v7+Li4sAAADAwMBFvsw8AAAAAXRSTlMAQObYZgAAAB1JREFUCFtjYAADYwMGBmYVZSDhKAwkFJWhYiAAAB2+Aa/9ugeaAAAAAElFTkSuQmCC');
-  list-style-type: square;
+  /*@if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
+    *list-style-image: url(../images/menu-leaf.png);
+  }
+  /* list-style-image: inline-image("menu-leaf.png"); */
+  list-style-type: none;
 }
 
 /*
@@ -29,7 +32,7 @@ ul li.leaf {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\0000339}}
 li a.active {
-  color: #000;
+  color: black;
 }
 
 /*
@@ -39,12 +42,13 @@ li a.active {
 #navigation {
   /* overflow: hidden; */
   /* Sometimes you want to prevent overlapping with main div. */
+  margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\0000351}}
 #navigation .block {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\0000356}}
 #navigation .block-menu .block-title,
 #navigation .block-menu-block .block-title {
   position: absolute !important;
@@ -53,7 +57,7 @@ li a.active {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\0000361}}
 #navigation ul.links,
 #navigation ul.menu {
   /* Menu block links */
@@ -62,7 +66,7 @@ li a.active {
   text-align: left;
   /* LTR */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\0000366}}
 #navigation ul.links li,
 #navigation ul.menu li {
   /* A simple method to get navigation links to appear in one line. */
@@ -77,7 +81,7 @@ li a.active {
 /*
  * Main menu and Secondary menu links
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\0000385}}
 #secondary-menu {
   float: right;
   /* LTR */
@@ -92,3 +96,9 @@ li a.active {
  * Drupal core has limited ways in which it can display its menus. To get around
  * these limitations, see http://drupal.org/project/menu_block
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/navigation\.scss}line{font-family:\00003107}}
+li.node-readmore a {
+  color: #99173c;
+  text-decoration: none;
+  font-variant: italic;
+}

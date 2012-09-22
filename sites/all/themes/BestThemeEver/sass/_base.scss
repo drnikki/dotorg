@@ -67,28 +67,31 @@ $verdana:         Verdana, Tahoma, "DejaVu Sans", sans-serif;
 $tahoma:          Tahoma, Verdana, "DejaVu Sans", sans-serif;
 $helvetica:       Helvetica, Arial, "Nimbus Sans L", sans-serif;
 $arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
-
+$vollkorn:        'Vollkorn';
 // For an explanation of why "sans-serif" is at the end of this list, see
 // http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/
 $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 
 // Now create some variables for the font stacks we want to use on this site.
-$base-font-family: $arial; // The font family set on the html element.
+$base-font-family: $vollkorn; // The font family set on the html element.
 $font-body:        $verdana;
 $font-monospace:   $courier;
-
+$font-header: $vollkorn;
 
 //
 // Colors, etc.
 //
 //http://www.colourlovers.com/palette/444487/Curiosity_Killed#
-$body-background: #EFFBF5;
+$body-background: #fff;
 $large-background: #DCE9BE;
 $link: #EFFFCD;
 $accent1: #555152;
-$link: #99173C;
+$link-color-default: #99173C;
+$link-color-active: #000;
+$link-color-visited: #000;
+$link-color-hover: #000;
 $accent3: #2E2633;
-
+$header-link-color: #000;
 // The amount lists, blockquotes and comments are indented.
 $indent-amount: 30px;
 

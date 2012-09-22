@@ -60,29 +60,30 @@ body {
 #site-name {
   /* The name of the website */
   margin: 0;
-  font-size: 2em;
+  font-size: 2.5em;
   line-height: 1.5em;
+  font-family: "Vollkorn";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\0000373}}
 #site-name a:link,
 #site-name a:visited {
-  color: #000;
+  color: black;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\0000379}}
 #site-name a:hover,
 #site-name a:focus {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\0000384}}
 #site-slogan {
   /* The slogan (or tagline) of a website */
   margin: 0;
   font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\0000389}}
 .region-header {
   /* Wrapper for any blocks placed in the header region */
   clear: both;
@@ -95,16 +96,16 @@ body {
 /*
  * Content
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003110}}
 .breadcrumb {
   /* The path to the current page in the form of a list of links */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003111}}
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003115}}
 .breadcrumb li {
   display: inline;
   list-style-type: none;
@@ -112,7 +113,7 @@ body {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003128}}
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -123,37 +124,37 @@ h3.title {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003132}}
 tr.even {
   /* Some tables have rows marked even or odd. */
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003136}}
 tr.odd {
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003140}}
 div.messages {
   /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 1.5em 0;
   /* Drupal core uses "6px 0" margin */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003143}}
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003149}}
 div.status {
   /* Normal priority messages */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003153}}
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -161,53 +162,53 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003158}}
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003161}}
 .error {
   /* Errors that are separate from div.messages status messages. */
   /* color: #e55; */
   /* Drupal core uses a #e55 background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003165}}
 .warning {
   /* Warnings that are separate from div.messages status messages. */
   /* color: #e09010; */
   /* Drupal core uses a #e09010 background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003169}}
 .tabs {
   /* See also the tabs.css file. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003172}}
 .region-help {
   /* Help text on a page */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003175}}
 .more-help-link {
   /* Link to more help */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003178}}
 .region-content {
   /* Wrapper for the actual page content */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003181}}
 ul.inline {
   /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003185}}
 ul.inline li {
   display: inline;
   list-style-type: none;
@@ -215,30 +216,30 @@ ul.inline li {
   /* LTR */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003191}}
 span.field-label {
   /* The inline field label used by the Fences module */
   padding: 0 1em 0 0;
   /* LTR */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003195}}
 .item-list .pager {
   /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003198}}
 .item-list .pager li {
   /* Each page number in the pager list */
   padding: 0 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003203}}
 .feed-icon {
   /* The link to the RSS or Atom feed for the current list of content */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003206}}
 .more-link {
   /* Aggregator, blog, and forum more link */
 }
@@ -261,7 +262,12 @@ span.field-label {
 /*
  * Page bottom
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003240}}
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003243}}
+code {
+  padding: 10px 10px 10px 0px;
 }
