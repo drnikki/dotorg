@@ -171,6 +171,12 @@ function BestThemeEver_preprocess_node(&$variables, $hook) {
   if (function_exists($function)) {
     $function($variables, $hook);
   }
+
+  // change submitted date
+  $variables['submitted'] =  t('!datetime',
+		array(
+		'!datetime' => $variables['date'],
+		));
 }
 
 
