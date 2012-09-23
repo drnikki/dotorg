@@ -53,6 +53,7 @@
 }
 
 .node-article { /* Article content node */
+  margin: 0 0 0 20px;
 }
 
 .node-unpublished { /* Unpublished nodes */
@@ -61,4 +62,8 @@
   p.unpublished { /* The word "Unpublished" displayed underneath the content. */
     @include unpublished-div;
   }
+}
+
+p.submitted {
+  margin: 0;
 }

@@ -68,15 +68,16 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/nodes\.scss}line{font-family:\0000355}}
 .node-article {
   /* Article content node */
+  margin: 0 0 0 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/nodes\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/nodes\.scss}line{font-family:\0000359}}
 .node-unpublished {
   /* Unpublished nodes */
   /* background-color: #fff4f4; */
   /* Drupal core uses a #fff4f4 background */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/nodes\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/nodes\.scss}line{font-family:\0000362}}
 .node-unpublished p.unpublished {
   /* The word "Unpublished" displayed underneath the content. */
   height: 0;
@@ -89,4 +90,9 @@
   text-transform: uppercase;
   text-align: center;
   word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/nodes\.scss}line{font-family:\0000367}}
+p.submitted {
+  margin: 0;
 }
