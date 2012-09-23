@@ -1,0 +1,26 @@
+/**
+ * @file
+ * Colors Styling
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/colors\.scss}line{font-family:\000038}}
+body {
+  background-color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/colors\.scss}line{font-family:\0000312}}
+#header {
+  background-color: #cccccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/colors\.scss}line{font-family:\0000316}}
+a {
+  color: #99173c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/colors\.scss}line{font-family:\0000318}}
+a:hover {
+  color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/colors\.scss}line{font-family:\0000319}}
+a:visited {
+  color: black;
+}
