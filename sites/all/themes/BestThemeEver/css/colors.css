@@ -24,3 +24,8 @@ a:hover {
 a:visited {
   color: black;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/colors\.scss}line{font-family:\0000322}}
+p.submitted {
+  color: gray;
+}

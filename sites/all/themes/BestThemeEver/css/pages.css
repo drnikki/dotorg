@@ -268,6 +268,6 @@ span.field-label {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003243}}
-code {
-  padding: 10px 10px 10px 0px;
+p.submitted {
+  font-size: .75em;
 }
