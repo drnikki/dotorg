@@ -271,3 +271,16 @@ span.field-label {
 p.submitted {
   font-size: .75em;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003247}}
+header h2.node-title {
+  margin-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/pages\.scss}line{font-family:\00003251}}
+p, pre {
+  margin-bottom: 1.5em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1.5em;
+}

@@ -240,4 +240,18 @@ span.field-label { /* The inline field label used by the Fences module */
 .region-bottom { /* Wrapper for any blocks placed in the page bottom region */
 }
 
-p.submitted { font-size: .75em; }
+p.submitted {
+  font-size: .75em;
+}
+
+header h2.node-title {
+  margin-top: 10px;
+}
+
+p, pre {
+    margin-bottom: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1.5em;
+}
+

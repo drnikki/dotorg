@@ -279,8 +279,8 @@ mark {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/work\/drnikki\.org\/sites\/all\/themes\/BestThemeEver\/sass\/normalize\.scss}line{font-family:\00003297}}
 p,
 pre {
-  /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
-  margin: 1.5em 0;
+  /* Sets 1 unit of vertical rhythm on the top and bottom margin. 
+  margin: rhythm() 0; */
 }
 
 /*
